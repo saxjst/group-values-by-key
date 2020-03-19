@@ -12,4 +12,11 @@ describe("chainFns tests", () => {
   test("if empty objects are passed then a empty object is returned", () => {
     expect(groupValuesByKey([{}, {}])).toEqual({});
   });
+
+  test("if filled objects are passed then groups are returned", () => {
+    const input = [{ a: 2 }, { a: 3, b: 1 }];
+    const output = { a: [2, 3], b: [1] };
+
+    expect(groupValuesByKey(input)).toEqual(output);
+  });
 });
