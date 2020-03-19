@@ -1,0 +1,22 @@
+{
+  "name": "group-values-by-key",
+  "version": "1.0.0",
+  "description": "Group values of two objects by their key ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saxjst/group-values-by-key.git"
+  },
+  "author": {
+    "name": "saxjst"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saxjst/group-values-by-key/issues"
+  },
+  "homepage": "https://github.com/saxjst/group-values-by-key#readme",
+  "engines": {
+    "node": ">=10.16.3"
+  },
+  "keywords": []
+}
