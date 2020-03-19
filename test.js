@@ -5,6 +5,10 @@ describe("chainFns tests", () => {
     expect(typeof groupValuesByKey).toBe("function");
   });
 
+  test("if an empty object is passed then a empty object is returned", () => {
+    expect(groupValuesByKey([{}])).toEqual({});
+  });
+
   test("if empty objects are passed then a empty object is returned", () => {
     expect(groupValuesByKey([{}, {}])).toEqual({});
   });
