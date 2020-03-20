@@ -4,7 +4,9 @@
   "description": "Group values of two objects by their key ",
   "main": "index.js",
   "scripts": {
-    "test": "jest ."
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   },
   "keywords": [],
   "dependencies": {
+    "coveralls": "^3.0.11",
     "ramda": "^0.27.0"
   },
   "devDependencies": {
