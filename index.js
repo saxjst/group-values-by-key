@@ -19,7 +19,7 @@ const addValuesByKey = (groups, objects) => key => {
  * @api public
  * @example
  *
- *    groupValuesByKey({a:2}, {a:3, b:1}) // => { a: [ 2, 3 ], b: [ 1 ] }
+ *    groupValuesByKey({a:2}, {a:3, b:1}) //=> { a: [ 2, 3 ], b: [ 1 ] }
  *
  */
 const groupValuesByKey = objects => {
