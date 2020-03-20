@@ -19,4 +19,11 @@ describe("chainFns tests", () => {
 
     expect(groupValuesByKey(input)).toEqual(output);
   });
+
+  test("if nested objects are passed then groups only formed of one level keys are returned", () => {
+    const input = [{ a: 2, b: { c: 4 } }, { a: 3, b: 1 }];
+    const output = { a: [2, 3], b: [{ c: 4 }, 1] };
+
+    expect(groupValuesByKey(input)).toEqual(output);
+  });
 });
