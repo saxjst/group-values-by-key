@@ -22,10 +22,7 @@ const groupValuesByKey = require("group-values-by-key");
 
 const objects = [{ a: 2 }, { a: 3, b: 1 }];
 
-groupValuesByKey(objects) //=> { a: [ 2, 3 ], b: [ 1 ] }
-
-count; //=> 1
-})()
+groupValuesByKey(objects); //=> { a: [ 2, 3 ], b: [ 1 ] }
 ```
 
 ## API
