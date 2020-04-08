@@ -29,6 +29,6 @@
     "ramda": "^0.27.0"
   },
   "devDependencies": {
-    "jest": "25.2.7"
+    "jest": "25.3.0"
   }
 }
