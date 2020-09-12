@@ -1,6 +1,6 @@
 {
   "name": "group-values-by-key",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Group values of two objects by their key ",
   "main": "index.js",
   "scripts": {
